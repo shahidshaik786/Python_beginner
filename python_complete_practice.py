@@ -1,5 +1,7 @@
 #/bin/python
 
+"""Version: Python 3"""
+
 #Printing output in python 3.x
 print("Hellow world.! This is Shahid_Shaik")
 
@@ -62,7 +64,6 @@ print(c)
         >= greater than or equals
         > is greater than
         < is less than
-        <> not equals to
 
 Note: For if else conditions syntax are mandatory
         if ():
