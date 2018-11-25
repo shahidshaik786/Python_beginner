@@ -153,3 +153,29 @@ a=2.0
 b=9.0
 b//=a #b=b//a
 print("b//=a = "+str(b))
+"""4)Logical Operators
+        and
+        or
+        not
+"""
+print("""Truth Table
+---------------------------
+|   a    |   b    |a and b|
+---------------------------
+|   T    |   T    |   T   |
+---------------------------
+|   T    |   F    |   F   |
+---------------------------
+|   F    |   T    |   F   |
+---------------------------
+|   F    |   F    |   F   |
+---------------------------""")
+#-------- and ------------#
+a="cat"
+b="cat"
+c="dog"
+d="mouse"
+if a==b and c==d:
+    print("a=b and c=d both are true")
+else:
+    print("a=b and c=d any one case or both are false")
