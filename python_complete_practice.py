@@ -1,7 +1,5 @@
 #/bin/python
 
-"""Version: Python 3"""
-
 #Printing output in python 3.x
 print("Hellow world.! This is Shahid_Shaik")
 
@@ -105,3 +103,53 @@ if a < b:
     print("A less than B "+"A="+str(a)+" and B="+str(b))
 else:
     print("A not less than B "+"A="+str(a)+" and B="+str(b))
+""" 3)Assignment Operators
+        =
+        +=
+        -+
+        *=
+        /=
+        %=
+        **=
+        //=
+"""
+#-------- = ------------#
+a=10
+b=23
+c=a
+print("A="+str(a)+" B="+str(b)+" C="+str(c))
+#-------- += ------------#
+a=10
+b=23
+b+=a #b=b+a
+print("b+=a = "+str(b))
+#-------- += ------------#
+a=10
+b=23
+b-=a #b=b-a
+print("b-=a = "+str(b))
+#-------- *= ------------#
+a=2
+b=4
+b*=a #b=b-a
+print("b*=a = "+str(b))
+#-------- /= ------------#
+a=2
+b=9
+b/=a #b=b/a
+print("b/=a = "+str(b))
+#-------- %= ------------#
+a=2
+b=4
+b%=a #b=b%a
+print("b%=a = "+str(b))
+#-------- **= ------------#
+a=2
+b=4
+b**=a #b=b**a
+print("b**=a = "+str(b))
+#-------- //= ------------#
+a=2.0
+b=9.0
+b//=a #b=b//a
+print("b//=a = "+str(b))
