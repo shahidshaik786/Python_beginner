@@ -158,7 +158,7 @@ print("b//=a = "+str(b))
         or
         not
 """
-print("""Truth Table
+"""Truth Table
 ---------------------------
 |   a    |   b    |a and b|
 ---------------------------
@@ -169,13 +169,41 @@ print("""Truth Table
 |   F    |   T    |   F   |
 ---------------------------
 |   F    |   F    |   F   |
----------------------------""")
+---------------------------"""
 #-------- and ------------#
-a="cat"
+"""a="cat"
 b="cat"
 c="dog"
 d="mouse"
-if a==b and c==d:
-    print("a=b and c=d both are true")
+if 1==1 and 2==2:
+    print("T and T ; both are True")
+elif 1==1 and 1==2:
+    print("T and F ; True and False")
+elif 1==2 and 1==1:
+    print("F and T ; False and True")
 else:
-    print("a=b and c=d any one case or both are false")
+    print("F and F ; both are False")"""
+
+def TandT():
+    return """Selected arugemnet = 1 :
+    T and T ; both are True"""
+def TandF():
+    return """Selected arugemnet = 1 :
+    T and F ; True and False"""
+def FandT():
+    return """Selected arugemnet = 1 :
+    F and T ; False and True"""
+def FandF():
+    return """Selected arugemnet = 1 :
+    F and F ; both are False"""
+def and_operator(argument):
+    switcher = {
+        1: TandT(),
+        2: TandF(),
+        3: FandT(),
+        4: FandF(),
+    }
+    return switcher.get(argument, "Please enter value from 1 to 4 only")
+if __name__ == "__main__":
+    argument=5 ###
+    print(and_operator(argument))
