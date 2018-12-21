@@ -14,8 +14,8 @@ b="shahid"
 C=0.23
 
 print("Type of 'a' variable is " + str(type(a)))
-print("Type of 'a' variable is " + str(type(b)))
-print("Type of 'a' variable is " + str(type(C)))
+print("Type of 'b' variable is " + str(type(b)))
+print("Type of 'c' variable is " + str(type(C)))
 
 #Operators in python
 """ 1)Arthimetic Operators
@@ -32,28 +32,28 @@ d=2.0
 e=9.0
 #-------- Addition------------#
 c=a+b
-print(c)
+print("Addition " + str(c))
 #-------- Subtraction------------#
 c=a-b
-print(c)
+print("Subtraction " + str(c))
 #-------- Mulitplication------------#
 c=a*b
-print(c)
+print("Mulitplication " + str(c))
 #-------- Divsion------------#
 c=b/a
-print(c)
+print("Divsion "+ str(c))
 #-------- Modulus------------#
 c=b%a
-print(c)
+print("Modulus "+ str(c))
 #-------- Exponent------------#
 c=b**a
-print(c)
+print("Exponent "+ str(c))
 #-------- Floor division without floot values------------#
 c=b//a
-print(c)
+print("Floor division without floot values" + str(c))
 #-------- Floor division with floot values------------#
 c=e//d
-print(c)
+print("Floor division with floot values " + str(c))
 
 """ 2)Logical Operators
         == comparision
@@ -64,7 +64,7 @@ print(c)
         < is less than
 
 Note: For if else conditions syntax are mandatory
-        if ():
+        if <Statement>:
             <tap space>
         else:
             <tab space>
@@ -106,7 +106,7 @@ else:
 """ 3)Assignment Operators
         =
         +=
-        -+
+        -=
         *=
         /=
         %=
