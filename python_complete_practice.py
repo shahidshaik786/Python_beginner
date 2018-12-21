@@ -18,7 +18,7 @@ print("Type of 'b' variable is " + str(type(b)))
 print("Type of 'c' variable is " + str(type(C)))
 
 #Operators in python
-""" 1)Arthimetic Operators
+""" 1)Arthimetic Operators ****************************************************
         + addition
 		- subtraction
 		* mulitplication
@@ -55,7 +55,7 @@ print("Floor division without floot values" + str(c))
 c=e//d
 print("Floor division with floot values " + str(c))
 
-""" 2)Logical Operators
+""" 2)Logical Operators ****************************************************
         == comparision
         != not equals to
         <= less than or equals
@@ -153,7 +153,7 @@ a=2.0
 b=9.0
 b//=a #b=b//a
 print("b//=a = "+str(b))
-"""4)Logical Operators
+"""4)Logical Operators ****************************************************
         and
         or
         not
@@ -254,7 +254,7 @@ def and_operator(argument):
 if __name__ == "__main__":
     argument=1 ###
     print(and_operator(argument))
-"""5)Bitwise Operators
+"""5)Bitwise Operators ****************************************************
         & Binary AND
         | Binary OR
         ^ Binary XOR
@@ -307,3 +307,18 @@ if ( a is not b ):
     print("a="+str(a)+" and b="+str(a)+" are NOT same ")
 else:
     print("a="+str(a)+" and b="+str(a)+" are same ")
+"""7)Membership Operators ****************************************************
+        in
+        not in
+"""
+a = 3
+b = 10
+list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+if( a in list ):
+    print("A value is available in given list")
+else:
+    print("A value is not available in given list")
+if( b in list ):
+    print("B value is available in given list")
+else:
+    print("B value is not available in given list")
