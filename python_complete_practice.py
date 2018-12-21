@@ -64,18 +64,18 @@ print("Floor division with floot values " + str(c))
         < is less than
 
 Note: For if else conditions syntax are mandatory
-        if <Statement>:
+        if (Statement):
             <tap space>
         else:
             <tab space>
 """
 #-------- comparision------------#
-if a == b:
+if (a == b):
     print("both A="+ str(a)+ " and B="+ str(b) +" values are same ")
 else:
     print("both A="+ str(a)+ " and B="+ str(b) +" values are NOT same ")
 #-------- Not equals------------#
-if a != b:
+if (a != b):
     print("both A="+ str(a)+ " and B="+ str(b) +" values are NOT same ")
 else:
     print("both A="+ str(a)+ " and B="+ str(b) +" values are same ")
@@ -285,3 +285,25 @@ c = a << b
 print("C value after binary << operation is =",c)
 c = a >> b
 print("C value after binary >> operation is =",c)
+"""6)identity Operators ******************************************************
+        is
+        is not
+"""
+a = 20
+b = 20
+#Checking with ID values
+if ( id(a) == id(b) ):
+    print("id(a)="+str(id(a))+" and id(b)="+str(id(b))+" are same ")
+else:
+    print("id(a)="+str(id(a))+" and id(b)="+str(id(b))+" are NOT same ")
+#Checking with values
+if ( a is b ):
+    print("a="+str(a)+" and b="+str(a)+" are same ")
+else:
+    print("a="+str(a)+" and b="+str(a)+" are NOT same ")
+a = 30
+#Checking with values
+if ( a is not b ):
+    print("a="+str(a)+" and b="+str(a)+" are NOT same ")
+else:
+    print("a="+str(a)+" and b="+str(a)+" are same ")
